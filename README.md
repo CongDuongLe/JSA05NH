@@ -14,3 +14,11 @@ git branch -M develop : tạo ra 1 nhanh làm việc có tên develop, source co
 git remote add origin + đường dẫn project github tạo trên website github.com
 
 git push -u origin + tên nhánh tạo ở dòng 12
+
+
+
+// đẩy các file còn lại 
+
+ git add . : chọn tất cả các file thay đổi
+ git commit -m "nội dung commit"
+ git push -u origin tên branch
