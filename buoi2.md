@@ -26,3 +26,21 @@ git commit -m 'nội dung commit'  dùng để làm gì khi thao tác với git
 []: #  git add . : chọn tất cả các file thay đổi
 []: #  git commit -m "nội dung commit"
 []: #  git push -u origin tên branch
+
+
+
+câu lệnh git branch  -M + tên branch  : dùng để làm gì 
+// => tạo 1 nhánh làm việc hoàn toàn mới trên github
+ // câu lệnh git push -u origin + tên branch : thì tên branch phải trùng với branch đang được chọn
+
+
+ // 3 thuộc tính cơ bản của Display : inline, inline-block, block
+
+
+
+ // display : inline : các thẻ được hiển thị trên cùng 1 dòng, không thể thay đổi chiều rộng, chiều cao của thẻ
+
+ // display : block : các thẻ được hiển thị trên 1 dòng, có thể thay đổi chiều rộng, chiều cao của thẻ ( mặc định thì chiều rộng của thẻ sẽ chiếm toàn màn hình)
+
+ // block : có khả năng thay đổi chiều rộng và chiều cao của thẻ 
+ // inline-block : có khả năng thay đổi chiều rộng và chiều cao của thẻ, nhưng các thẻ sẽ được hiển thị trên cùng 1 dòng
