@@ -312,7 +312,10 @@ console.log(reverseNewArr)
 // nhiệm vụ về nhà : tìm hiểu trước hàm cắt, sửa mảng : array.splice() 
 // buổi sau là buổi 4 : có 1 checkpoint, nội dung checkpoint sẽ xoay quanh các thao thác với mảng được học ở buổi 3 
 
+// vê nhà :làm bài trên classin , ôn tập 6 phương thức đã học, tìm hiểu phương thức array.splice() : trong checkpoint sẽ có 2 câu về array.splice()
 
 
 
 
+
+// array.splice():  
