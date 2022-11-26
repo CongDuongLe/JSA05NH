@@ -162,5 +162,50 @@ setInterval(() => {
 }, 1000);
 
 
-console.log(divTextQuery)
+const inputQuery = document.querySelector('#input')
+const inputVal = inputQuery.value
+const inputWrapper = document.querySelector('.input-wrapper')
 
+
+
+const faker = [
+    {
+        id: 1,
+        name: 'Messi',
+    },
+    {
+        id: 2,
+        name: 'Ronaldo',
+    },
+    {
+        id: 3,
+        name: 'Benzema',
+    },
+    {
+        id: 4,
+        name: 'Salah',
+        club : 'Liverpool'
+    },
+    {
+        id: 5,
+        name: 'Neymar',
+    },
+]
+
+
+
+
+const handleInput = (event) => {
+    console.log('value in input', event.target.value)
+    event.preventDefault()
+    inputWrapper.innerText = event.target.value
+    faker.map(
+        (item, index) => {
+            //name include target.value
+            if(item.name.includes(event.target.value)) {
+                let divChild = document.createElement('div')
+                divChild.innerText = item?.club || 'null'
+                inputWrapper.appendChild(divChild)
+            }
+        })
+}
