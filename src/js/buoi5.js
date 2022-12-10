@@ -211,3 +211,32 @@ const logout = () => {
     window.location.href = 'loginB5.html'
 
 }
+
+
+
+
+// arrow function
+
+
+function name(params) {
+    
+}
+// chuyển sang arrf
+const tinhtong = (a,b,c) => {
+    return console.log(a+b+c)
+}
+
+tinhtong(1, 2, 3)
+
+const arr = [1,2,3,4,5,6]
+
+
+// map() sử với kiểu dữ liệu array
+
+ const arrX2  =  arr.filter(
+    (item, index) => {
+        return item  %2 === 0
+    }
+)
+
+console.log(arrX2)

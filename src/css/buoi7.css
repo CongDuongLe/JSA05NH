@@ -1,0 +1,12 @@
+#btn-click{
+    padding: 10px;
+    background-color: aquamarine;
+    width: 40px;
+    border-radius: 4px;
+    color : brown
+}
+
+#btn-click:hover{
+    background-color: aqua;
+    color: red;
+}

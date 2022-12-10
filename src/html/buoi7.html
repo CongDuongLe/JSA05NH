@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/buoi7.css">
+</head>
+<body>
+    <h1>Buổi 7 JSA 05</h1>
+
+
+    <div id="btn-click" onclick="handleLog('hello world')" >
+        Click
+    </div>
+
+    <button onclick="handleLogName()">
+        Dùng cách khai báo hàm bình thường
+    </button>
+
+    <button onclick="logName()">
+        Dùng arrow function
+    </button>
+
+    <!-- <input type="text" id="input" placeholder="test ô input"
+      
+        onsubmit="submitInput(event)"
+    > -->
+
+
+        <input type="text" id="input" placeholder="test ô input"
+            onchange="onchangeInput(event)"
+        >
+        <input type="submit" value="submit" onsubmit="submitInput()">
+
+
+
+
+    <!-- 
+        oninput là DOM event tracking sự thay đổi của ô input
+        onchange là DOM event lấy ra giá trị cuối cùng của ô input
+
+        trong đối tương form hoặc input sẽ có 1 DOM event là onsubmit 
+        => dùng để cập nhật lại giá trí của ô input khi người dùng làm hành động enter 
+         hoặc ấn nút submit
+           onchange="handleUserInput(event)"
+
+
+     -->
+
+    <script src="../js/buoi7.js"></script>
+</body>
+</html>
